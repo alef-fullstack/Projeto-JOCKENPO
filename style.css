@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: url("./assets/backgroud.png");
     background-size: cover;
     display: flex;
@@ -13,7 +13,7 @@ body{
     min-height: 100vh;
 }
 
-.container{
+.container {
     padding: 20px;
     background-color: #b5c1c3;
     border-radius: 10px;
@@ -23,14 +23,14 @@ body{
     justify-content: center;
 }
 
-.buttons{
+.buttons {
     margin: 30px;
     display: flex;
     gap: 40px;
 
 }
 
-button{
+button {
     padding: 10px;
     font-size: 50px;
     cursor: pointer;
@@ -40,55 +40,64 @@ button{
 
 }
 
-button:hover{
+button:hover {
     opacity: 0.4;
 }
 
-#rock{
+#rock {
     background-color: #00F3FF;
 }
 
-#paper{
+#paper {
     background-color: #9D00FF;
 }
 
-#scissors{
+#scissors {
     background-color: #FF00AA;
 }
 
-p{
+p {
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.my-score span{
+.my-score span {
     color: #FF00AA;
     font-size: 25px;
 }
 
-.machine-score span{
+.machine-score span {
     color: #9D00FF;
     font-size: 25px;
 }
 
-#empate{
+#empate {
     color: #00F3FF;
     font-size: 25px;
 
 }
 
-.result{
+.result {
     font-size: 50px;
 }
 
 @media screen and (max-width: 600px) {
-   
-   
-    .container{
-    width: 250px;
-    height: 250px;
-}
 
 
-    
+    #container {
+        width: 250px;
+        height: 250px;
+    }
+
+    body {
+        background: url("./assets/backgroud.png");
+        min-height: 100vh;
+        background-size: cover;
+        display: flex;
+        align-content: center;
+    }
+
+    .result {
+        font-size: 30px;
+    }
 }
