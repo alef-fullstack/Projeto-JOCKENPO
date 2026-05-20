@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("./assets/backgroud.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    padding: 20px;
+    background-color: #b5c1c3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    margin: 30px;
+    display: flex;
+    gap: 40px;
+
+}
+
+button{
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+
+}
+
+button:hover{
+    opacity: 0.4;
+}
+
+#rock{
+    background-color: #00F3FF;
+}
+
+#paper{
+    background-color: #9D00FF;
+}
+
+#scissors{
+    background-color: #FF00AA;
+}
+
+p{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.my-score span{
+    color: #FF00AA;
+    font-size: 25px;
+}
+
+.machine-score span{
+    color: #9D00FF;
+    font-size: 25px;
+}
+
+#empate{
+    color: #00F3FF;
+    font-size: 25px;
+
+}
+
+.result{
+    font-size: 50px;
+}
